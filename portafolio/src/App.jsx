@@ -4,6 +4,7 @@ import SobreMi from './components/SobreMi'
 import Proyectos from './components/Proyectos'
 import Habilidades from './components/Habilidades'
 import Contacto from './components/Contacto'
+import Footer from './components/Footer'
 function App() {
   //Estado
 const [valorInput, setValorInput] = useState('')
@@ -12,12 +13,14 @@ const [valorInput, setValorInput] = useState('')
 
   //jsx
   return (
+    
     <>
       <Navbar />
-      <SobreMi />\
-      <Proyectos />
+      <SobreMi />
       <Habilidades />
+      <Proyectos />
       <Contacto />
+      <Footer />
     </>
   )
 }

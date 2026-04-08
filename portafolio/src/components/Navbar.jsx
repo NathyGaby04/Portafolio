@@ -1,14 +1,16 @@
-function Navbar () {
+import logo from '../assets/MiLogo.png'
+
+function Navbar() {
     return (
         <nav className="Navbar">
-            <ul className="Nav-Links">
-                <li><a href="SobreMi.jsx">Sobre Mi</a></li>
-                <li><a href="Habilidades.jsx">Habilidades</a></li>
-                <li><a href="Proyectos.jsx">Proyectos</a></li>
-                <li><a href="Contacto.jsx">Proyectos</a></li>
-            </ul>
+        <img src={logo} alt="logo" />
+        <ul className="Nav-Links">
+            <li><a href="#SobreMi">Sobre Mi</a></li>
+            <li><a href="#Habilidades">Habilidades</a></li>
+            <li><a href="#Proyectos">Proyectos</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
         </nav>
-    )
-}
+    )}
 
 export default Navbar
