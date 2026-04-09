@@ -10,15 +10,15 @@ function Proyectos() {
             nombre: 'Portafolio',
             descripcion: 'Mi portafolio personal',
             imagen: foto1,
-            github: 'https://github.com/',
-            demo: 'https://demo.com/'
+            github: 'https://github.com/NathyGaby04/Portafolio.git',
+            demo: 'https://portafolio-d4z18qjeh-nathalie-mirandas-projects.vercel.app/'
         },
         {
-            nombre: 'App de tareas',
+            nombre: 'SanBox Tigo',
             descripcion: 'Una app de tareas',
             imagen: foto2,
-            github: 'https://github.com/',
-            demo: 'https://demo.com/'
+            github: 'https://github.com/NathyGaby04/SanBox-Test.git',
+            demo: 'https://san-box-test.vercel.app/index.html'
         },
     ];
 
