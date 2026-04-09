@@ -15,7 +15,7 @@ function Proyectos() {
         },
         {
             nombre: 'SanBox Tigo',
-            descripcion: 'Una app de tareas',
+            descripcion: 'Biblioteca de componentes Front-End con la metodología de Atomic Design y hecho con Bootstrap, enfocada en la modularidad y la agilidad del desarrollo web.',
             imagen: foto2,
             github: 'https://github.com/NathyGaby04/SanBox-Test.git',
             demo: 'https://san-box-test.vercel.app/index.html'
@@ -29,26 +29,20 @@ function Proyectos() {
             <div className="Proyectos-grid">
                 {proyectos.map(proyecto => (
                     <div className="ProyectoCard" key={proyecto.nombre}>
-                    
                     <a href={proyecto.demo} target="_blank" rel="noreferrer" className="Proyecto-link-wrapper">
-                        <img 
-                            src={proyecto.imagen} 
-                            alt={proyecto.nombre} 
-                            className="Proyecto-img"
-                        />
-
-                        <div className="Proyecto-info">
+                        <img src={proyecto.imagen} alt={proyecto.nombre} className="Proyecto-img" />
+                        
+                        <div className="Proyecto-cuerpo">
                             <h3>{proyecto.nombre}</h3>
                             <p>{proyecto.descripcion}</p>
                         </div>
                     </a>
 
-                    <div className="Proyecto-info">
+                    <div className="Proyecto-footer">
                         <div className="Proyecto-links">
                             <a href={proyecto.github} target="_blank" rel="noreferrer" className="github-link">
                                 <FaGithub />
                             </a>
-                            
                             <a href={proyecto.demo} target="_blank" rel="noreferrer">
                                 <FaExternalLinkAlt />
                             </a>
