@@ -3,9 +3,9 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 function Contacto() {
 
     const redes = [
-        { nombre: 'GitHub', url: 'https://github.com/', icono: <FaGithub />, tipo: 'social' },
-        { nombre: 'LinkedIn', url: 'https://linkedin.com/', icono: <FaLinkedin />, tipo: 'social' },
-        { nombre: 'Correo', url: 'mailto:tuemail@gmail.com', icono: <FaEnvelope />, tipo: 'contacto' },
+        { nombre: 'GitHub', url: 'https://github.com/NathyGaby04', icono: <FaGithub />, tipo: 'social' },
+        { nombre: 'LinkedIn', url: 'https://www.linkedin.com/in/nathalie-gabriela-miranda-rej%C3%B3n/', icono: <FaLinkedin />, tipo: 'social' },
+        { nombre: 'Correo', url: 'mailto:nathalie040904@gmail.com', icono: <FaEnvelope />, tipo: 'contacto' },
     ];
 
     return (
