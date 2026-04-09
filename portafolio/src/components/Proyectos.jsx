@@ -11,7 +11,7 @@ function Proyectos() {
             descripcion: 'Mi portafolio personal',
             imagen: foto1,
             github: 'https://github.com/NathyGaby04/Portafolio.git',
-            demo: 'https://portafolio-d4z18qjeh-nathalie-mirandas-projects.vercel.app/'
+            demo: 'https://portafolionathaliemiranda.vercel.app/'
         },
         {
             nombre: 'SanBox Tigo',
