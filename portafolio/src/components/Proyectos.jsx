@@ -29,7 +29,8 @@ function Proyectos() {
             <div className="Proyectos-grid">
                 {proyectos.map(proyecto => (
                     <div className="ProyectoCard" key={proyecto.nombre}>
-                        
+                    
+                    <a href={proyecto.demo} target="_blank" rel="noreferrer" className="Proyecto-link-wrapper">
                         <img 
                             src={proyecto.imagen} 
                             alt={proyecto.nombre} 
@@ -39,19 +40,22 @@ function Proyectos() {
                         <div className="Proyecto-info">
                             <h3>{proyecto.nombre}</h3>
                             <p>{proyecto.descripcion}</p>
-
-                            <div className="Proyecto-links">
-                                <a href={proyecto.github} target="_blank" rel="noreferrer">
-                                    <FaGithub />
-                                </a>
-
-                                <a href={proyecto.demo} target="_blank" rel="noreferrer">
-                                    <FaExternalLinkAlt />
-                                </a>
-                            </div>
                         </div>
+                    </a>
 
+                    <div className="Proyecto-info">
+                        <div className="Proyecto-links">
+                            <a href={proyecto.github} target="_blank" rel="noreferrer" className="github-link">
+                                <FaGithub />
+                            </a>
+                            
+                            <a href={proyecto.demo} target="_blank" rel="noreferrer">
+                                <FaExternalLinkAlt />
+                            </a>
+                        </div>
                     </div>
+                </div>
+                    
                 ))}
             </div>
         </section>
